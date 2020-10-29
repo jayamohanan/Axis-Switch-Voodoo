@@ -1,0 +1,10 @@
+GameAnalytics Voodoo
+Game key f79c8506f6f3cbef388453f428e6ab54
+secret key 87e22c4a570431840217f360e2c547192aded5e4
+
+Voodoo FB
+facebook  777021393081892
+Facebook Ad Account id  3568660693165750
+
+Admob acount
+App ID: ca-app-pub-9904614353552965~5690515653

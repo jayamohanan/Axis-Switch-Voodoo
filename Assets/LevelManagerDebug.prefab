@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6510713777597222888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6510713777597222890}
+  - component: {fileID: 6510713777597222891}
+  m_Layer: 0
+  m_Name: LevelManagerDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6510713777597222890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6510713777597222888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6510713777597222891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6510713777597222888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8ae2f73e18b094f9fb3741e3624511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearAllData: 0
+  loadSpecificLevel: 0
+  level: 6
+  colorSchemes:
+  - cameraBGColor: {r: 0.21176471, g: 0.7372549, b: 0.49411765, a: 1}
+    lineColor: {r: 0, g: 0, b: 0, a: 1}
+  - cameraBGColor: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 1}
+    lineColor: {r: 1, g: 0, b: 0, a: 1}
+  - cameraBGColor: {r: 0.6156863, g: 0.2784314, b: 1, a: 1}
+    lineColor: {r: 0, g: 0, b: 0, a: 1}
+  - cameraBGColor: {r: 0, g: 0.36862746, b: 0.36078432, a: 1}
+    lineColor: {r: 0, g: 0, b: 0, a: 1}
+  colorSchemeChangeInterval: 1
+  levelsPrefabList:
+  - {fileID: 6281866943796776503, guid: d5674028e054489418faa71e099fecc6, type: 3}
+  - {fileID: 1067248478884761383, guid: 4af9d13633497fd438a52b33fe92d7e1, type: 3}
+  - {fileID: 5809357805083013732, guid: f32518e80e902eb43bc781ecc4485daa, type: 3}
+  - {fileID: 1278014452240567752, guid: 457a2464d90e93e4ca6b2554d4bc401c, type: 3}
+  - {fileID: 3097350624667077896, guid: 46b09ce525a3c734fbe446fc5a12abe9, type: 3}
+  - {fileID: 7501304221850499986, guid: f68ef9423055bdd4e9a41db01764a58b, type: 3}
+  - {fileID: 4226636133482836675, guid: e20479ca250bf8e43bd3f20bd2695dde, type: 3}
+  - {fileID: 4984648064311258853, guid: 1aa8feb491bca244f8b089925c60d950, type: 3}
+  - {fileID: 6807177881551118318, guid: c1a376475c5370046999a17b4d9e0e39, type: 3}
+  - {fileID: 8198072068073463967, guid: 15d65ee71648fdc4b91c92c147ca5de1, type: 3}
+  - {fileID: 238423750964570061, guid: e64edda35a786b4419b4256d6953230f, type: 3}
+  currentLevelTransform: {fileID: 0}
+  currentLevel: 0
