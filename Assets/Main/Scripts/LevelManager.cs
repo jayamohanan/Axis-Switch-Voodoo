@@ -84,6 +84,7 @@ public class LevelManager : MonoBehaviour
         GameObject levelPrefab;
         if (index >= levelsCount)
             index = (index - firstTimeOnlyLevelCount) % (levelsCount - firstTimeOnlyLevelCount) + firstTimeOnlyLevelCount;
+            //index is currentLevel -1
         levelPrefab = levelsPrefabList[index];
         currentLevelTransform = Instantiate(levelPrefab, Vector3.zero, Quaternion.identity, transform).transform;
         //GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, currentLevel.ToString());
